@@ -1,0 +1,80 @@
+body{
+
+    color: white;
+    
+}/*setting the text colour*/
+
+.wrapper{
+    display:grid;
+    grid-template-columns:220px 2fr 290px;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "logo nav search"
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    font-family: 'Source Sans Pro', sans-serif;
+}/*setting up the grid layout and font*/
+.box{
+    background-color: #241c1c;
+}
+.sep,.header{
+    background-color: #7a6e6e;
+}/*setting the background colours*/
+
+.logo{
+    grid-area:logo;
+	padding: 0px;
+    top:0px;
+}/*aligning the logo*/
+.sep{
+    grid-area:sep;
+}
+.nav{
+    grid-area:nav;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+    background-color: #241c1c;
+}/*aliging the nav bar*/
+.main{
+    grid-area:main;
+    text-align: center;
+}
+.header{
+    grid-area:header;
+    text-align: center;
+    font-size: 150%;
+    
+}
+.footer{
+    grid-area:footer;
+    background-color: #7e0000;
+}
+.search{
+    grid-area: search;
+    padding:50px;
+    display:flex;
+    align-content: left;
+}/*aligning the search bar*/
+input[type="text"] {
+    width: 200px;
+    height: 20px;
+}
+button{
+    width:100px;
+    height:25px;
+}/*setting the search bar dimensions*/
+.copyright{
+    float:right;
+}
+.text{
+    font-size: 140%;
+}
+.nav a{font-weight:bold;}
+.nav a:link{color:white;}
+.nav a:visited {color:antiquewhite;}
+.nav a:hover {color:lightgray;}
+.nav a:link{ text-decoration: none;}
+/*setting the link colours*/
