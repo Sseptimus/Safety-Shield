@@ -48,18 +48,33 @@
             <!--the search bar-->
             &nbsp;
             <script>
-                function selectText(){
-                    
+                 function selectText(){
+                    //The function for the search bar
                     var a = document.getElementById('search').value
                     
                     var c = String(a)
-                    var object = ["student","run","non-profit","solution","viable","provide","american","school","shootings","prevent","awareness","profit","organisation","raise","designed"]
+                    var object = ["student","run","non-profit","solution","viable","provide","american","school","shootings","prevent","awareness","profit","organisation","raise","designed","neu seeland","Neu Seeland"]
                     for(var b in object){
                         var result = b.localeCompare(c)
                         if (result = 1){
-                        window.location.replace("https://projectspace.nz/zhbykgkl/about.php")
+                        window.location.replace("https://projectspace.nz/zhbykgkl/DEabout.php")
                         }
                     }
+                    var object = ["Schule","sicherheit","ensure","product","guranteed","gurantee","guns","property","kinder","child","kindern","shooting","disable","technology","prevent","usage"]
+                    for(var b in object){
+                        var result = b.localeCompare(c)
+                        if (result = 1){
+                        window.location.replace("https://projectspace.nz/zhbykgkl/DEinfo.php")
+                        }
+                    }
+                    var object = ["contact","question"]
+                    for(var b in object){
+                        var result = b.localeCompare(c)
+                        if (result = 1){
+                        window.location.replace("https://projectspace.nz/zhbykgkl/DEcontact.php")
+                        }
+                    }
+
                 }
             </script>
             </div>
