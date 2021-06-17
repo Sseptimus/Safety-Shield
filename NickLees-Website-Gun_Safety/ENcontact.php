@@ -51,29 +51,30 @@
                 function selectText(){
                     
                     var a = document.getElementById('search').value
-                    
+                    //the search function 
                     var c = String(a)
                     var object = ["student","run","non-profit","solution","viable","provide","american","school","shootings","prevent","awareness","profit","organisation","raise","designed","new zealnd","New Zealand"]
                     for(var b in object){
                         var result = b.localeCompare(c)
                         if (result = 1){
-                        window.location.replace("https://projectspace.nz/zhbykgkl/about.php")
+                        window.location.replace("https://projectspace.nz/zhbykgkl/ENabout.php")
                         }
                     }
                     var object = ["schools","safe","ensure","product","guranteed","gurantee","guns","property","kids","child","children","shooting","disable","technology","prevent","usage"]
                     for(var b in object){
                         var result = b.localeCompare(c)
                         if (result = 1){
-                        window.location.replace("https://projectspace.nz/zhbykgkl/info.php")
+                        window.location.replace("https://projectspace.nz/zhbykgkl/ENinfo.php")
                         }
                     }
                     var object = ["contact","question"]
                     for(var b in object){
                         var result = b.localeCompare(c)
                         if (result = 1){
-                        window.location.replace("https://projectspace.nz/zhbykgkl/contact.php")
+                        window.location.replace("https://projectspace.nz/zhbykgkl/ENcontact.php")
                         }
                     }
+
                 }
             </script>
             </div>
