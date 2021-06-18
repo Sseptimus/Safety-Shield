@@ -102,7 +102,7 @@
         <div class = "box main2">
             <!--the grid area for the secondary main area-->
             <div class = "img">
-            <a href ="DEproduct.php">
+            <a href ="DEinfo.php">
                 <img src = "img/fence.jpg" width="640" height ="359" alt = "loading...">
             </a>
         </div>
@@ -121,7 +121,7 @@
         <div class = "box main3">
             <!--the grid area for the tertiary main area-->
             <div class = "img">
-                <a href ="DEproduct.php">
+                <a href ="DEcontact.php">
                     <img src = "img/contact.jpg" width="640" height ="426" alt = "loading...">
                 </a>
             </div>
